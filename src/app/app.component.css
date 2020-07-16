@@ -1,0 +1,27 @@
+.make-it-inline {
+    display: inline;
+}
+
+.make-it-inline:hover{
+    padding: 20px;
+    background-color: khaki;
+}
+
+h1:focus {
+    color: blue;
+}
+
+img {
+    border-radius: 13px;
+    margin: 10px; 
+    border: 1px solid gray;
+    transition: all .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border-color: hotpink;
+    padding: 10px;
+    border-width: 10px;
+    background-color: blue;
+}
